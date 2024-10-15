@@ -1,0 +1,44 @@
+.sidebar ul li  {
+    margin-bottom: 10%;
+    list-style: none;
+    justify-content: space-evenly;
+    font-size: large;
+}
+
+.sidebar{
+  
+    height : 100vh;
+}
+
+.sidebar a{
+    text-decoration: none;
+    color:white;
+
+}
+.sidebar ul   {
+     
+   
+    justify-content: space-evenly;
+
+}
+
+
+  
+  .sidebar ul li:last-child {
+    margin-bottom: 0; /* Enlève le dernier espace pour que ça soit propre */
+  }
+
+  
+ ul li a:hover {
+    color: black;
+    
+  }
+  button{
+    background-color:#a228e8;
+    height: 50px;
+    width: 100px;
+    border-radius: 15px;
+  }
+  h4{
+    margin-right: 10rem;
+  }
